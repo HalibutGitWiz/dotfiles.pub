@@ -20,31 +20,43 @@ font:
     style: Bold Italic
   size: 11
 colors:
+
   # Default colors
   primary:
-    background: '0x2D2A2E'
-    foreground: '0xfff1f3'
+    # background: "#232731"
+    background: "#1f2227"
+    foreground: "#abb2bf"
 
   # Normal colors
+  # Nord
   normal:
-    black:   '0x2c2525'
-    red:     '0xfd6883'
-    green:   '0xadda78'
-    yellow:  '0xf9cc6c'
-    blue:    '0xf38d70'
-    magenta: '0xa8a9eb'
-    cyan:    '0x85dacc'
-    white:   '0xfff1f3'
+    black: "#4C566A"
+    red: "#bf616a"
+    green: "#A3BE8C"
+    yellow: "#D7BA7D"
+    blue: "#5e81ac"
+    magenta: "#B48EAD"
+    cyan: "#88c0d0"
+    white: "#abb2bf"
 
   # Bright colors
   bright:
-    black:   '0x72696a'
-    red:     '0xfd6883'
-    green:   '0xadda78'
-    yellow:  '0xf9cc6c'
-    blue:    '0xf38d70'
-    magenta: '0xa8a9eb'
-    cyan:    '0x85dacc'
-    white:   '0xfff1f3'
+    black: "#4C566A"
+    red: "#bf616a"
+    green: "#A3BE8C"
+    yellow: "#D7BA7D"
+    blue: "#5e81ac"
+    magenta: "#B48EAD"
+    cyan: "#88c0d0"
+    white: "#abb2bf"
+
+  # Change cursor colors
+  cursor:
+    text: "#3B4252"
+    cursor: "#ECEFF4"
+
+cursor:
+  style:
+    blinking: Never
 key_bindings:
   - {key: Escape, mods: Control, action: ToggleViMode}
