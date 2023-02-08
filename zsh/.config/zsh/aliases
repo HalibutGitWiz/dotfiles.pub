@@ -1,6 +1,3 @@
-# Add color and details to ls by default
-alias ls='ls -lah --color=auto'
-
 # Folder history
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
@@ -46,6 +43,7 @@ alias gcp='git cherry-pick'
 alias gft='git fetch'
 alias gdf='git diff'
 alias grs='git reset'
+alias grm='git rm'
 
 # Tmux short commands
 alias tls='tmux list-sessions'
