@@ -1,0 +1,61 @@
+# Add color and details to ls by default
+alias ls='ls -lah --color=auto'
+
+# Folder history
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+# Get up in folder hierarchy
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Replace standard commands with BAT alternatives
+if [ $(command -v "bat") ]; then
+    alias cat='bat'
+    alias man='batman'
+    alias bgrep='batgrep' # batgrep and grep are used differently, one can't substitute one for the other
+fi
+
+# "head" and "tail" variants using BAT (note : syntax highlighting is lost when using btail because input is STDIN instead of a file)
+function bhead() {
+    bat -r:${2:-10} $1
+}
+function btail() {
+    tail -n${2:-10} $1 | bat
+}
+
+# Git short commands
+alias gad='git add'
+alias gcm='git commit'
+alias gpl='git pull origin'
+alias gps='git push origin'
+alias gpsf='git push -f origin'
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+alias gmr='git merge'
+alias gsw='git switch'
+alias gch='git checkout'
+alias gchf='git checkout -f'
+alias glg='git log --pretty=oneline'
+alias gst='git status'
+alias gtg='git tag'
+alias gcp='git cherry-pick'
+alias gft='git fetch'
+alias gdf='git diff'
+alias grs='git reset'
+
+# Tmux short commands
+alias tls='tmux list-sessions'
+alias tas='tmux attach-session'
+alias tns='tmux new-session'
+alias tks='tmux kill-session'
+
+# Composer short commands
+alias cin='composer install'
+alias cup='composer update'
+
+# Neovim
+alias nv='nvim'
