@@ -10,6 +10,8 @@ export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
 # Default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
+export TERMINAL="alacritty"
+export MANWIDTH=999
 
 # Config folder
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
