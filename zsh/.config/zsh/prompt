@@ -18,7 +18,7 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 }
 
 zstyle ':vcs_info:*' check-for-changes true
-zstyle ':vcs_info:git:*' formats " (%{$fg[red]%}%m%u%c%{$fg[yellow]%} %b)%{$reset_color%}"
+zstyle ':vcs_info:git:*' formats " (%{$fg[red]%}%m%u%c%{$fg[yellow]%} %b%{$reset_color%})"
 
 setopt PROMPT_SUBST
 PROMPT=%F{248}%n:%f'${PWD/#$HOME/~}${vcs_info_msg_0_}%F{248}$%f '
