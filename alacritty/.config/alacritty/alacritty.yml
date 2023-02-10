@@ -20,41 +20,32 @@ font:
     style: Bold Italic
   size: 11
 colors:
-
   # Default colors
   primary:
-    # background: "#232731"
-    background: "#1f2227"
-    foreground: "#abb2bf"
+    background: '0x2c292d'
+    foreground: '0xfdf9f3'
 
   # Normal colors
-  # Nord
   normal:
-    black: "#4C566A"
-    red: "#bf616a"
-    green: "#A3BE8C"
-    yellow: "#D7BA7D"
-    blue: "#5e81ac"
-    magenta: "#B48EAD"
-    cyan: "#88c0d0"
-    white: "#abb2bf"
+    black:   '0x2c292d'
+    red:     '0xff6188'
+    green:   '0xa9dc76'
+    yellow:  '0xffd866'
+    blue:    '0x78dce8'
+    magenta: '0xab9df2'
+    cyan:    '0xfc9867' # it's orange, actually
+    white:   '0xfdf9f3'
 
   # Bright colors
   bright:
-    black: "#4C566A"
-    red: "#bf616a"
-    green: "#A3BE8C"
-    yellow: "#D7BA7D"
-    blue: "#5e81ac"
-    magenta: "#B48EAD"
-    cyan: "#88c0d0"
-    white: "#abb2bf"
-
-  # Change cursor colors
-  cursor:
-    text: "#3B4252"
-    cursor: "#ECEFF4"
-
+    black:   '0x2c292d'
+    red:     '0xff6188'
+    green:   '0xa9dc76'
+    yellow:  '0xffd866'
+    blue:    '0x78dce8'
+    magenta: '0xab9df2'
+    cyan:    '0xfc9867' # it's orange, actually
+    white:   '0xfdf9f3'
 cursor:
   style:
     blinking: Never
