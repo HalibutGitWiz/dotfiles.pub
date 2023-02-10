@@ -1,0 +1,30 @@
+alacritty
+xsel
+zsh
+zap-zsh (https://github.com/zap-zsh/zap)
+zathura
+fzf
+ripgrep
+bat
+bat-extras
+darktable
+nextcloud
+keepassxc
+mullvad-vpn-bin
+diff-so-fancy
+neovim
+php
+php-xdebug
+php-json
+php-ldap
+php-ftp
+php-intl
+php-mbstring
+apache2
+libapache2-mod-php
+mariadb-server
+mycli
+composer
+phpunit
+phpstorm
+lazygit ?
