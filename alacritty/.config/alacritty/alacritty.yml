@@ -19,6 +19,8 @@ font:
     family: JetBrains Mono 
     style: Bold Italic
   size: 11
+
+# Monokai Pro colors
 colors:
   # Default colors
   primary:
