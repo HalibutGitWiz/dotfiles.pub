@@ -50,6 +50,13 @@
           <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
         </property>
       </property>
+      <property name="monitoreDP1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/eos_wallpapers_community/EOS_3_4K.png"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
