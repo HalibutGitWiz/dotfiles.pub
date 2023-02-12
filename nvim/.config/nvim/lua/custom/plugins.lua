@@ -46,8 +46,9 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
   
   -- Color schemes
-  use "sainnhe/sonokai"
+  -- use "sainnhe/sonokai"
   -- use "shaunsingh/nord.nvim"
+  use "phanviet/vim-monokai-pro"
 
   -- Git integration
   use "tpope/vim-fugitive"

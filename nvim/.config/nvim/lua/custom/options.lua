@@ -27,6 +27,7 @@ local options = {
   wrap = true,                             -- display lines as one long line
   linebreak = true,                        -- companion to wrap, don't split words
   scrolloff = 8,                           -- minimal number of screen lines to keep above and below the cursor
+  termguicolors = true,                    -- allows 24 bit colors
 }
 
 for k, v in pairs(options) do
