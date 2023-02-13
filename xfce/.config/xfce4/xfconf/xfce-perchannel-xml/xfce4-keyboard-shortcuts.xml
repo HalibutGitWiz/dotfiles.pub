@@ -53,9 +53,9 @@
       <property name="XF86WWW" type="string" value="jumpapp firefox --private"/>
       <property name="&lt;Super&gt;t" type="string" value="jumpapp alacritty"/>
       <property name="Calculator" type="string" value="jumpapp galculator"/>
-      <property name="&lt;Super&gt;c" type="string" value="jumpapp galculator"/>
       <property name="&lt;Super&gt;b" type="string" value="jumpapp -t Btop alacritty -t Btop -e btop"/>
       <property name="&lt;Super&gt;v" type="string" value="jumpapp -t Neovim alacritty -t Neovim -e nvim"/>
+      <property name="&lt;Super&gt;c" type="string" value="jumpapp mattermost-desktop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

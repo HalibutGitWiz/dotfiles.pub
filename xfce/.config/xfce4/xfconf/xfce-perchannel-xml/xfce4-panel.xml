@@ -62,6 +62,7 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="Mattermost1"/>
         <value type="string" value="steam"/>
         <value type="string" value="KeePassXC"/>
         <value type="string" value="Mullvad VPN1"/>
