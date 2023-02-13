@@ -38,17 +38,27 @@ packer.init {
   },
 }
 
--- Install your plugins here
+-- Plugins installation
 return packer.startup(function(use)
+
   -- Plugin manager + base plugins required by many others
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
   
-  -- Color schemes
-  -- use "sainnhe/sonokai"
-  -- use "shaunsingh/nord.nvim"
+  -- Color scheme
   use "phanviet/vim-monokai-pro"
+
+  -- Completion plugins
+  use "hrsh7th/nvim-cmp" -- Main plugin
+  use "hrsh7th/cmp-buffer" -- Buffers completions
+  use "hrsh7th/cmp-path" -- Path completions
+  use "hrsh7th/cmp-cmdline" -- Commands completions
+  use "saadparwaiz1/cmp_luasnip" -- Snippets completions
+
+  -- Code snippets
+  use "L3MON4D3/LuaSnip" -- Snippet engine
+  use "rafamadriz/friendly-snippets" -- Snippets for a large selection of languages
 
   -- Git integration
   use "tpope/vim-fugitive"
