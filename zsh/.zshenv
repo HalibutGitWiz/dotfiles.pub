@@ -25,9 +25,6 @@ export HISTSIZE=10000
 # Maximum events in history file
 export SAVEHIST=10000
 
-# Dotfiles repository
-export DOTFILES="$HOME/dotfiles"
-
 # Use ripgrep instead of find to run fzf faster
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

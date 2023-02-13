@@ -17,6 +17,7 @@ plug "zap-zsh/fzf"
 plug "zap-zsh/exa"
 plug "Aloxaf/fzf-tab"
 plug "zsh-users/zsh-autosuggestions"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#999999"
 plug "zsh-users/zsh-syntax-highlighting"
 
 # Automatically adds a / after foler names 
