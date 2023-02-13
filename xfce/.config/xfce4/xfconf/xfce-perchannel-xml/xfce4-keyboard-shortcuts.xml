@@ -56,7 +56,7 @@
       <property name="&lt;Super&gt;b" type="string" value="jumpapp -t Btop alacritty -t Btop -e btop"/>
       <property name="&lt;Super&gt;v" type="string" value="jumpapp -t Neovim alacritty -t Neovim -e nvim"/>
       <property name="&lt;Super&gt;c" type="string" value="jumpapp mattermost-desktop"/>
-      <property name="&lt;Super&gt;g" type="string" value="jumpapp -t Lazygit alacritty -t Lazygit -e lazygit"/>
+      <property name="&lt;Super&gt;g" type="string" value="jumpapp -t Lazygit alacritty -t Lazygit"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
