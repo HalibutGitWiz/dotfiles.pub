@@ -8,6 +8,7 @@ if not snip_status_ok then
   return
 end
 
+-- What is this ??
 -- require("luasnip/loaders/from_vscode").lazy_load()
 
 -- Function required for improving the use of Tab in snippets
@@ -125,9 +126,6 @@ cmp.setup {
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
     select = false,
-  },
-  documentation = {
-    border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
   },
   experimental = {
     ghost_text = false,
