@@ -44,8 +44,10 @@ alias gft='git fetch'
 alias gdf='git diff'
 alias grs='git reset'
 alias grm='git rm'
+alias lg='lazygit'
 
 # Tmux short commands
+alias tm='tmux'
 alias tls='tmux list-sessions'
 alias tas='tmux attach-session'
 alias tns='tmux new-session'
@@ -55,5 +57,11 @@ alias tks='tmux kill-session'
 alias cin='composer install'
 alias cup='composer update'
 
+# Yarn short commands
+alias yin='yarn install'
+
 # Neovim
 alias nv='nvim'
+
+# Mycli short commands
+alias mc='mycli -d loc'
