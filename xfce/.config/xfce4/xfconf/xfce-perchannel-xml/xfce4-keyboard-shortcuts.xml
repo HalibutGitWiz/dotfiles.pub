@@ -44,7 +44,6 @@
       <property name="XF86Mail" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;k" type="string" value="jumpapp keepassxc"/>
       <property name="&lt;Super&gt;z" type="string" value="jumpapp zathura"/>
-      <property name="&lt;Super&gt;s" type="string" value="jumpapp spotify"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;f" type="string" value="jumpapp firefox --private"/>
       <property name="HomePage" type="string" value="jumpapp firefox --private"/>
@@ -57,6 +56,7 @@
       <property name="&lt;Super&gt;Return" type="string" value="jumpapp -t Terminal alacritty -t Terminal"/>
       <property name="&lt;Super&gt;t" type="string" value="jumpapp -t Terminal alacritty -t Terminal"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp thunar"/>
+      <property name="&lt;Super&gt;s" type="string" value="jumpapp -t Spotify alacritty -t Spotify -e ncspot"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -19,12 +19,11 @@
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
-        <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="9"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="1"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
@@ -56,6 +55,9 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “fb_cuvethi” active: fb_cuvethi (74%)"/>
+        <value type="string" value="wi-fi network connection “fb_cuvethi” active: fb_cuvethi (73%) starting vpn connection “wg-mullvad”…"/>
+        <value type="string" value="wi-fi network connection “fb_cuvethi” active: fb_cuvethi (74%) vpn connection active"/>
         <value type="string" value="ethernet network connection “wired connection 1” active vpn connection active"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="firewall-applet"/>
@@ -70,11 +72,16 @@
         <value type="string" value="Nextcloud"/>
         <value type="string" value="firewall-applet"/>
       </property>
+      <property name="menu-is-primary" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance13955;chromium.instance21346;chromium.instance8358;firefox.instance1560;firefox.instance1602;firefox.instance1710;firefox.instance2111;firefox.instance2147;firefox.instance3951;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance13955;chromium.instance21346;chromium.instance8358;firefox.instance1560;firefox.instance1602;firefox.instance1710;firefox.instance2111;firefox.instance2147;firefox.instance3951;ncspot;spotify;spotifyd.instance15096;spotifyd.instance15623;spotifyd.instance7403;spotifyd.instance7427"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -82,9 +89,6 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-1" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-26" type="string" value="whiskermenu"/>
