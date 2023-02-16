@@ -81,7 +81,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance13955;chromium.instance21346;chromium.instance8358;firefox.instance1560;firefox.instance1602;firefox.instance1710;firefox.instance2111;firefox.instance2147;firefox.instance3951;ncspot;spotify;spotifyd.instance15096;spotifyd.instance15623;spotifyd.instance7403;spotifyd.instance7427"/>
+      <property name="mpris-players" type="string" value="chromium.instance13955;chromium.instance1917;chromium.instance21346;chromium.instance8358;firefox.instance1560;firefox.instance1602;firefox.instance1710;firefox.instance2111;firefox.instance2147;firefox.instance3951;firefox.instance4521;ncspot;spotify;spotifyd.instance15096;spotifyd.instance15623;spotifyd.instance7403;spotifyd.instance7427"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>

@@ -52,11 +52,11 @@
       <property name="&lt;Super&gt;b" type="string" value="jumpapp -t Btop alacritty -t Btop -e btop"/>
       <property name="&lt;Super&gt;v" type="string" value="jumpapp -t Neovim alacritty -t Neovim -e nvim"/>
       <property name="&lt;Super&gt;c" type="string" value="jumpapp mattermost-desktop"/>
-      <property name="&lt;Super&gt;g" type="string" value="jumpapp -t Lazygit alacritty -t Lazygit"/>
       <property name="&lt;Super&gt;Return" type="string" value="jumpapp -t Terminal alacritty -t Terminal"/>
       <property name="&lt;Super&gt;t" type="string" value="jumpapp -t Terminal alacritty -t Terminal"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp thunar"/>
       <property name="&lt;Super&gt;s" type="string" value="jumpapp -t Spotify alacritty -t Spotify -e ncspot"/>
+      <property name="&lt;Super&gt;g" type="string" value="jumpapp -t Lazygit alacritty -t Lazygit -e lazygit"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
