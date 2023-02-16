@@ -45,9 +45,11 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
-  
+
   -- Color scheme
-  use "phanviet/vim-monokai-pro"
+  use "sainnhe/sonokai"
+  -- use "phanviet/vim-monokai-pro"
+  -- use 'christianchiarulli/nvcode-color-schemes.vim'
 
   -- Completion plugins
   use "hrsh7th/nvim-cmp" -- Main plugin
