@@ -1,0 +1,9 @@
+local status_ok, _ = pcall(require, "lspconfig")
+if not status_ok then
+  vim.notify('LSP not installed')
+  return
+end
+
+require('custom.lsp.mason')
+require('custom.lsp.handlers').setup()
+require('custom.lsp.null-ls')

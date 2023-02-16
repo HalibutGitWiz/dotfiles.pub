@@ -55,19 +55,28 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- Path completions
   use "hrsh7th/cmp-cmdline" -- Commands completions
   use "saadparwaiz1/cmp_luasnip" -- Snippets completions
+  use "hrsh7th/cmp-nvim-lsp" -- LSP completions
+  use "hrsh7th/cmp-nvim-lua" -- Neovim config completions
 
   -- Code snippets
   use "L3MON4D3/LuaSnip" -- Snippet engine
   use "rafamadriz/friendly-snippets" -- Snippets for a large selection of languages
 
   -- Git integration
-  use "tpope/vim-fugitive"
+  -- use "tpope/vim-fugitive"
 
   -- Status bar
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+
+  -- LSP
+  use "neovim/nvim-lspconfig" -- enable LSP
+  use "williamboman/mason.nvim" -- simple to use language server installer
+  use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
+  use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
+  use 'b0o/schemastore.nvim' -- Easy access to common files schema for JSON LSP
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
