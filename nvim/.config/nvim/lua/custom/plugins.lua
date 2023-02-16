@@ -78,8 +78,15 @@ return packer.startup(function(use)
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
   use 'b0o/schemastore.nvim' -- Easy access to common files schema for JSON LSP
 
-  -- Telescope
+  -- Telescope (fuzzy finder)
   use "nvim-telescope/telescope.nvim"
+
+  -- Treesitter (better syntax highlighting)
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+  use "p00f/nvim-ts-rainbow" -- rainbow brackets
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
