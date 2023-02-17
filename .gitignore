@@ -13,6 +13,7 @@ mullvad/.config/Mullvad VPN/SingletonCookie
 mullvad/.config/Mullvad VPN/SingletonLock
 mullvad/.config/Mullvad VPN/SingletonSocket
 mullvad/.config/Mullvad VPN/logs/
+mullvad/.config/Mullvad VPN/Session Storage/
 darktable/.config/darktable/data*
 darktable/.config/darktable/library*
 darktable/.config/darktable/shortcutsrc.defaults
