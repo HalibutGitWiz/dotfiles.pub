@@ -90,6 +90,10 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow" -- rainbow brackets
 
+  -- Comments
+  use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- Treesitter integration
+
   -- Other plugins
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
 
