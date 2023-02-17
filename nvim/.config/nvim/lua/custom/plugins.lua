@@ -90,6 +90,9 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow" -- rainbow brackets
 
+  -- Other plugins
+  use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
