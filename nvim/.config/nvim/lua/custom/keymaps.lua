@@ -12,11 +12,12 @@ vim.g.maplocalleader = " "
 -- Normal mode --
 -----------------
 
--- Easier window navigation (space+hjkl)
-keymap("n", "<leader>h", "<C-w>h", opts)
-keymap("n", "<leader>j", "<C-w>j", opts)
-keymap("n", "<leader>k", "<C-w>k", opts)
-keymap("n", "<leader>l", "<C-w>l", opts)
+-- Easier window navigation (Ctrl+hjkl)
+keymap("n", "<C-h>", "<CMD>NavigatorLeft<CR>", opts)
+keymap("n", "<C-j>", "<CMD>NavigatorDown<CR>", opts)
+keymap("n", "<C-k>", "<CMD>NavigatorUp<CR>", opts)
+keymap("n", "<C-l>", "<CMD>NavigatorRight<CR>", opts)
+keymap("n", "<C-p>", "<CMD>NavigatorPrevious<CR>", opts)
 
 -- Open file explorer with space+e
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
@@ -31,6 +32,10 @@ keymap("n", "<C-Right>", ":vertical :resize -2<cr>", opts)
 keymap("n", "<S-l>", ":bn<cr>", opts)
 keymap("n", "<S-h>", ":bp<cr>", opts)
 
+-- Move text up and down
+keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
+keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
+
 -----------------
 -- Visual mode --
 -----------------
@@ -41,6 +46,18 @@ keymap("v", ">", ">gv", opts)
 
 -- Keep register content after pasting
 keymap("v", "p", '"_dP', opts)
+
+-- Move text up and down
+keymap("v", "<A-j>", ":m .+1<CR>==", opts)
+keymap("v", "<A-k>", ":m .-2<CR>==", opts)
+keymap("v", "p", '"_dP', opts)
+
+-- Visual Block --
+-- Move text up and down
+keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
+keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
+keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
+keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Telescope
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
