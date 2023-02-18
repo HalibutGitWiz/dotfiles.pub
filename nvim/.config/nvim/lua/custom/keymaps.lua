@@ -20,7 +20,7 @@ keymap("n", "<C-l>", "<CMD>NavigatorRight<CR>", opts)
 keymap("n", "<C-p>", "<CMD>NavigatorPrevious<CR>", opts)
 
 -- Open file explorer with space+e
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":Neotree<CR>", opts)
 
 -- Resize with Ctrl+arrows
 keymap("n", "<C-Up>", ":resize +2<cr>", opts)

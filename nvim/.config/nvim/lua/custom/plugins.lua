@@ -59,19 +59,14 @@ return packer.startup(function(use)
   use "saadparwaiz1/cmp_luasnip" -- Snippets completions
   use "hrsh7th/cmp-nvim-lsp" -- LSP completions
   use "hrsh7th/cmp-nvim-lua" -- Neovim config completions
+  use "nvim-tree/nvim-web-devicons" -- Display UTF-8 icons
 
   -- Code snippets
   use "L3MON4D3/LuaSnip" -- Snippet engine
   use "rafamadriz/friendly-snippets" -- Snippets for a large selection of languages
 
-  -- Git integration
-  -- use "tpope/vim-fugitive"
-
   -- Status bar
-  use {
-    'nvim-lualine/lualine.nvim',
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-  }
+  use 'nvim-lualine/lualine.nvim'
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
@@ -82,6 +77,15 @@ return packer.startup(function(use)
 
   -- Telescope (fuzzy finder)
   use "nvim-telescope/telescope.nvim"
+
+  -- Nvimtree (file explorer)
+  use {
+    'nvim-neo-tree/neo-tree.nvim',
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "MunifTanjim/nui.nvim",
+    },
+  }
 
   -- Treesitter (better syntax highlighting)
   use {
