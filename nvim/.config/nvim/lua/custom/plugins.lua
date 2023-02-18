@@ -96,6 +96,7 @@ return packer.startup(function(use)
 
   -- Other plugins
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
+  use "lewis6991/gitsigns.nvim" -- Highlight changes lines
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
