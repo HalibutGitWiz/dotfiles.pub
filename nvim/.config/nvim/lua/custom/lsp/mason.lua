@@ -8,12 +8,8 @@ local servers = {
     "html", -- HTML
     "cssls", -- CSS
 	"jsonls", -- JSON
-	"yamlls", -- JSON
+	"yamlls", -- YAML
 	"lua_ls", -- Lua
-
-    -- Linters
-    "psalm", -- PHP
-    "quick_lint_js", -- Javascript
 }
 
 local settings = {
