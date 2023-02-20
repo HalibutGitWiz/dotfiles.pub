@@ -101,6 +101,9 @@ return packer.startup(function(use)
   -- Xdebug (and other DBGP debuggers) integration
   use 'vim-vdebug/vdebug'
 
+  -- Project management
+  use "ahmedkhalf/project.nvim"
+
   -- Other plugins
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
   use "lewis6991/gitsigns.nvim" -- Highlight changes lines

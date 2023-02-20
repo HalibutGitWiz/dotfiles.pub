@@ -100,3 +100,6 @@ telescope.setup {
     -- please take a look at the readme of the extension you want to configure
   },
 }
+
+-- Enable project management
+require('telescope').load_extension('projects')
