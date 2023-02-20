@@ -2,7 +2,7 @@
 local servers = {
 
     -- LSP
-    "intelephense", -- PHP
+    "phpactor", -- PHP
     "tsserver", -- Javascript / Typescript
     "sqlls", -- SQL
     "html", -- HTML
