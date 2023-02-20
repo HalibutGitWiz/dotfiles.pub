@@ -98,6 +98,9 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- Treesitter integration
 
+  -- Xdebug (and other DBGP debuggers) integration
+  use 'vim-vdebug/vdebug'
+
   -- Other plugins
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
   use "lewis6991/gitsigns.nvim" -- Highlight changes lines
