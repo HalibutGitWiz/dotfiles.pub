@@ -77,8 +77,8 @@ neotree.setup({
       nowait = true,
     },
     mappings = {
-      ["<space>"] = { 
-          "toggle_node", 
+      ["<space>"] = {
+          "toggle_node",
           nowait = false, -- disable `nowait` if you have existing combos starting with this char that you want to use 
       },
       ["<2-LeftMouse>"] = "open",
@@ -204,4 +204,9 @@ neotree.setup({
       }
     }
   }
+})
+
+-- Load Telescope projects list on start
+vim.api.nvim_create_autocmd({'VimEnter'}, {
+    command = "Telescope projects"
 })

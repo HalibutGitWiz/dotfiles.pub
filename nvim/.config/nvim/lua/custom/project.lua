@@ -45,3 +45,6 @@ project.setup {
   -- telescope
   datapath = vim.fn.stdpath("data"),
 }
+
+
+
