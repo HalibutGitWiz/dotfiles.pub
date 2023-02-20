@@ -31,3 +31,6 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # Add custom folder to ZSH function patch
 export FPATH=~/.config/zsh/functions:$FPATH
+
+# Change display colors of exa
+export EXA_COLORS="da=37"
