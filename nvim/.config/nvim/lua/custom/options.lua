@@ -28,7 +28,7 @@ local options = {
   linebreak = true, -- companion to wrap, don't split words
   scrolloff = 8, -- minimal number of screen lines to keep above and below the cursor
   termguicolors = true, -- allows 24 bit colors
-  colorcolumn = '80', -- adds a marker at 80 characters column
+  colorcolumn = '120', -- adds a marker at 120 characters column
 }
 
 for k, v in pairs(options) do
