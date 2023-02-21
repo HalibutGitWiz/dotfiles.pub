@@ -29,6 +29,7 @@ local options = {
   scrolloff = 8, -- minimal number of screen lines to keep above and below the cursor
   termguicolors = true, -- allows 24 bit colors
   colorcolumn = '120', -- adds a marker at 120 characters column
+  autochdir = false, -- do not :cd into the folder of open files
 }
 
 for k, v in pairs(options) do
