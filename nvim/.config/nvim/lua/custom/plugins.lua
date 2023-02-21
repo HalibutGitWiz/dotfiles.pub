@@ -103,6 +103,13 @@ return packer.startup(function(use)
 
   -- Project management
   use "ahmedkhalf/project.nvim" -- Autodetect projects and navigate with Telescope
+  use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+  }
 
   -- Other plugins
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...

@@ -205,8 +205,3 @@ neotree.setup({
     }
   }
 })
-
--- Load Telescope projects list on start
-vim.api.nvim_create_autocmd({'VimEnter'}, {
-    command = "Telescope projects"
-})

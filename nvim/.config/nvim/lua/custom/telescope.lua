@@ -103,9 +103,3 @@ telescope.setup {
 
 -- Enable project management
 require('telescope').load_extension('projects')
-
--- Load Telescope projects list on start when no file opened
-vim.api.nvim_create_autocmd({'VimEnter'}, {
-    pattern = {},
-    command = "Telescope projects"
-})
