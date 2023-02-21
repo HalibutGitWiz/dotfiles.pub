@@ -7,7 +7,7 @@ neotree.setup({
   close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
   popup_border_style = "rounded",
   enable_git_status = true,
-  enable_diagnostics = true,
+  enable_diagnostics = false,
   sort_case_insensitive = false, -- used when sorting files and directories in the tree
   sort_function = nil , -- use a custom function for sorting files and directories in the tree 
   -- sort_function = function (a,b)
@@ -131,6 +131,11 @@ neotree.setup({
   nesting_rules = {},
   filesystem = {
     filtered_items = {
+      bind_to_cwd = true, -- true creates a 2-way binding between vim's cwd and neo-tree's root
+      cwd_target = {
+        sidebar = "tab",   -- sidebar is when position = left or right
+        current = "window" -- current is when position = current
+      },
       visible = false, -- when true, they will just be displayed differently than normal items
       hide_dotfiles = false,
       hide_gitignored = false,
