@@ -13,7 +13,7 @@ null_ls.setup {
   sources = {
 --    formatting.stylua,
     diagnostics.phpcs.with { extra_args = { '--standard=PSR12'} },
-    diagnostics.phpmd,
+    diagnostics.phpmd.with { extra_args = { 'cleancode,codesize,controversial,design,naming,unusedcode'} },
     diagnostics.phpstan,
   },
 }
