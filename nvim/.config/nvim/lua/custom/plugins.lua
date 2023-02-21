@@ -115,8 +115,8 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
   use "lewis6991/gitsigns.nvim" -- Highlight changes lines
   use "numToStr/Navigator.nvim" -- Easy navigation between Tmux panes and Neovim windows
-  --[[ use {'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons'} -- Buffer and tabs bar ]]
   use 'romgrk/barbar.nvim' -- Buffer bar
+  use 'kosayoda/nvim-lightbulb' -- Display code actions with a lightbulb sign
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
