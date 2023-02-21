@@ -29,9 +29,10 @@ keymap("n", "<C-Left>", ":vertical resize +2<cr>", opts)
 keymap("n", "<C-Right>", ":vertical :resize -2<cr>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bn<cr>", opts)
-keymap("n", "<S-h>", ":bp<cr>", opts)
-keymap("n", "<S-q>", ":bp<bar>sp<bar>bn<bar>bd<CR>", opts) -- Close current buffer but not the window
+keymap("n", "<S-l>", "<CMD>BufferNext<CR>", opts)
+keymap("n", "<S-h>", "<CMD>BufferPrevious<CR>", opts)
+keymap("n", "<S-q>", "<CMD>BufferClose<CR>", opts) -- Close current buffer but not the window
+keymap("n", "<S-p>", "<CMD>BufferPick<CR>", opts) -- Close current buffer but not the window
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
