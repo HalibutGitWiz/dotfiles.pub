@@ -19,8 +19,7 @@ null_ls.setup {
     formatting.phpcbf.with { extra_args = { '--standard=PSR12'} },
 
     -- SQL
-    -- TODO : configure SqlFluff, default rules are weird
-    -- diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" }},
-    -- formatting.sqlfluff.with { extra_args = { "--dialect", "mysql" }}
+    diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" }},
+    formatting.sqlfluff.with { extra_args = { "--dialect", "mysql" }}
   },
 }
