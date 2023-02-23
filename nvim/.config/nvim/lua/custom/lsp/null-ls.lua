@@ -11,9 +11,16 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup {
   debug = false,
   sources = {
---    formatting.stylua,
+
+    -- PHP
     diagnostics.phpcs.with { extra_args = { '--standard=PSR12'} },
     diagnostics.phpmd.with { extra_args = { vim.fn.expand("~/.config/nvim/lua/custom/lsp/settings/phpmd.xml")} },
     diagnostics.phpstan,
+    formatting.phpcbf.with { extra_args = { '--standard=PSR12'} },
+
+    -- SQL
+    -- TODO : configure SqlFluff, default rules are weird
+    -- diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" }},
+    -- formatting.sqlfluff.with { extra_args = { "--dialect", "mysql" }}
   },
 }
