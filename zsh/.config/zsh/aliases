@@ -70,4 +70,4 @@ alias mc='mycli -d loc'
 alias phpd='php -dxdebug.mode=debug -dxdebug.start_with_request=yes -dxdebug.client_port=9000 -dxdebug.client_host=127.0.0.1'
 
 # Allow write access when using sshfs
-alias sshfs='sshfs -o uid=1000,gid=1000'
+alias sshfs='sshfs -o uid=1000,gid=1000,allow_other,reconnect'
