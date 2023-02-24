@@ -67,4 +67,4 @@ alias nv='nvim'
 alias mc='mycli -d loc'
 
 # Run PHP CLI with Xdebug new-session
-alias phpd='php -dxdebug.mode=debug -dxdebug.start_with_request=yes -dxdebug.client_port=9000 -dxdebug.client_host=127.0.0.1 zkteco.php'
+alias phpd='php -dxdebug.mode=debug -dxdebug.start_with_request=yes -dxdebug.client_port=9000 -dxdebug.client_host=127.0.0.1'
