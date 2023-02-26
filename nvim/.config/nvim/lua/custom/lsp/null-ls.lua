@@ -22,7 +22,7 @@ null_ls.setup {
     formatting.phpcbf.with { extra_args = { '--standard=PSR12'} },
 
     -- css
-    diagnostics.stylelint.with { extra_args = { '--config', vim.fn.expand("~/.config/stylelint/.stylelintrc")}},
+    diagnostics.stylelint.with { extra_args = { '--config', vim.fn.expand("~/.config/stylelint/.stylelintrc.yml")}},
 
     -- SQL
     diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" }},
