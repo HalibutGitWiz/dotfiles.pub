@@ -36,11 +36,14 @@ lua-language-server
 typescript-language-server
 npm
 yarn
-psalm
+stylelint
 
 
 # From AUR
 nodejs-intelephense
+phpmd
+phpstan
+php-codesniffer
 
 # From Github
 zap-zsh (https://github.com/zap-zsh/zap)
