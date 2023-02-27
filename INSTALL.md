@@ -44,6 +44,7 @@ nodejs-intelephense
 phpmd
 phpstan
 php-codesniffer
+prettierd
 
 # From Github
 zap-zsh (https://github.com/zap-zsh/zap)

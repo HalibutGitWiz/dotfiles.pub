@@ -21,8 +21,9 @@ null_ls.setup {
     diagnostics.phpstan,
     formatting.phpcbf.with { extra_args = { '--standard=PSR12'} },
 
-    -- css
+    -- CSS
     diagnostics.stylelint.with { extra_args = { '--config', vim.fn.expand("~/.config/stylelint/.stylelintrc.yml")}},
+    formatting.prettierd,
 
     -- SQL
     diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" }},
