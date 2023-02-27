@@ -120,7 +120,6 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim" -- Highlight changes lines
   use "numToStr/Navigator.nvim" -- Easy navigation between Tmux panes and Neovim windows
   use 'romgrk/barbar.nvim' -- Buffer bar
-  use 'kosayoda/nvim-lightbulb' -- Display code actions with a lightbulb sign
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
