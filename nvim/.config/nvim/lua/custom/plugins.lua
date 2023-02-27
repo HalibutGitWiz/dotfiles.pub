@@ -94,9 +94,13 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow" -- rainbow brackets
 
-  -- Comments
+  -- Comments and documentation
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- Treesitter integration
+  use { -- Docblock generator for PHP, JS and Lua (among others..)
+    'kkoomen/vim-doge',
+    run = ':call doge#install()'
+  }
 
   -- Xdebug (and other DBGP debuggers) integration
   use 'vim-vdebug/vdebug'
