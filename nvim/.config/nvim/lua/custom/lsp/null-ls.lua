@@ -15,7 +15,7 @@ null_ls.setup {
     -- PHP
     diagnostics.phpcs.with {
         filetypes = {'php', 'js', 'css'},
-        extra_args = { '--standard=PSR12'}
+        extra_args = { '--standard=PSR12', '--config-set', 'php-version', '70333'}
     },
     diagnostics.phpmd.with { extra_args = { vim.fn.expand("~/.config/phpmd/phpmd.xml")} },
     diagnostics.phpstan,
