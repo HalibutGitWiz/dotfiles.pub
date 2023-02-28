@@ -17,7 +17,7 @@ null_ls.setup {
         filetypes = {'php', 'js', 'css'},
         extra_args = { '--standard=PSR12'}
     },
-    diagnostics.phpmd.with { extra_args = { vim.fn.expand("~/.config/nvim/lua/custom/lsp/settings/phpmd.xml")} },
+    diagnostics.phpmd.with { extra_args = { vim.fn.expand("~/.config/phpmd/phpmd.xml")} },
     diagnostics.phpstan,
     formatting.phpcbf.with { extra_args = { '--standard=PSR12'} },
 
