@@ -48,8 +48,6 @@ return packer.startup(function(use)
 
   -- Color scheme
   use "sainnhe/sonokai"
-  -- use "phanviet/vim-monokai-pro"
-  -- use 'christianchiarulli/nvcode-color-schemes.vim'
 
   -- Completion plugins
   use "hrsh7th/nvim-cmp" -- Main plugin
@@ -120,6 +118,7 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim" -- Highlight changes lines
   use "numToStr/Navigator.nvim" -- Easy navigation between Tmux panes and Neovim windows
   use 'romgrk/barbar.nvim' -- Buffer bar
+  use 'RRethy/vim-illuminate' -- Highlight other uses of current symbol on hover
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
