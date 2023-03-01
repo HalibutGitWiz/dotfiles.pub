@@ -72,7 +72,6 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
   use 'b0o/schemastore.nvim' -- Easy access to common files schema for JSON LSP
-  use 'gbprod/phpactor.nvim' -- Brings PhpActor advanced features that are outside the LSP scope as Neovim commands 
 
   -- Telescope (fuzzy finder)
   use "nvim-telescope/telescope.nvim"
