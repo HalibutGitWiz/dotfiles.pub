@@ -19,8 +19,9 @@ keymap("n", "<C-k>", "<CMD>NavigatorUp<CR>", opts)
 keymap("n", "<C-l>", "<CMD>NavigatorRight<CR>", opts)
 keymap("n", "<C-p>", "<CMD>NavigatorPrevious<CR>", opts)
 
--- Open file explorer with space+e
+-- Open file explorer with space+e and symbols list with space+s
 keymap("n", "<leader>e", ":Neotree<CR>", opts)
+keymap("n", "<leader>s", ":SymbolsOutline<CR>", opts)
 
 -- Resize with Ctrl+arrows
 keymap("n", "<C-Up>", ":resize +2<cr>", opts)

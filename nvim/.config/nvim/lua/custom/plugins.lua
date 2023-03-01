@@ -77,21 +77,21 @@ return packer.startup(function(use)
     use "nvim-telescope/telescope.nvim"
     use 'stevearc/dressing.nvim' -- Use Telescope for commands requiring an input or selecting an option from a list
 
-    -- Nvimtree (file explorer)
-    use {
+    -- File and symbols explorers
+    use { -- File explorer
         'nvim-neo-tree/neo-tree.nvim',
         requires = {
             "nvim-lua/plenary.nvim",
             "MunifTanjim/nui.nvim",
         },
     }
+    use 'simrat39/symbols-outline.nvim' -- Symbols list
 
     -- Treesitter (better syntax highlighting)
     use {
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
     }
-    use "p00f/nvim-ts-rainbow" -- rainbow brackets
 
     -- Comments and documentation
     use "numToStr/Comment.nvim" -- Easily comment stuff
