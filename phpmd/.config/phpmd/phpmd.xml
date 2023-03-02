@@ -12,6 +12,8 @@
             <exclude name="MissingImport" />
             <!-- Exclude the rule forbidding static calls -->
             <exclude name="StaticAccess" />
+            <!-- Exclude the rule forbidding else constructs -->
+            <exclude name="ElseExpression" />
         </rule>
 
         <!-- Missing "use" statements : apply rule but don't report global namespace -->
