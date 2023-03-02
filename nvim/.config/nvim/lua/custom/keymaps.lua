@@ -43,6 +43,7 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>p", "<cmd>Telescope projects<cr>", opts)
+keymap("n", "<leader>y", "<cmd>Telescope registers<cr>", opts)
 
 -- PhpActor
 keymap("n", "<leader>cp", "<cmd>PhpActor<cr>", opts)
