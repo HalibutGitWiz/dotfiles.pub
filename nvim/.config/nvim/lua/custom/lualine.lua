@@ -1,3 +1,8 @@
+local status_ok, lualine = pcall(require, "lualine")
+if not status_ok then
+  return
+end
+
 local colors = {
   blue   = '#78dce8',
   yellow = '#ffd866',
@@ -43,7 +48,7 @@ local monokai_pro_theme = {
   },
 }
 
-require('lualine').setup {
+lualine.setup {
   options = {
     icons_enabled = true,
     theme = monokai_pro_theme,
