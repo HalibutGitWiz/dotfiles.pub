@@ -37,6 +37,8 @@ typescript-language-server
 npm
 yarn
 stylelint
+nitrogen
+rofi
 
 
 # From AUR
