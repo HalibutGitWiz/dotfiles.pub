@@ -50,4 +50,4 @@ prettierd
 
 # From Github
 zap-zsh (https://github.com/zap-zsh/zap)
-
+tpm (https://github.com/tmux-plugins/tpm)
