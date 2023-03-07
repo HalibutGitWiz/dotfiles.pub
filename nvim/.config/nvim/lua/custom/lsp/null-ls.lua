@@ -31,6 +31,9 @@ null_ls.setup {
 
         -- SQL
         diagnostics.sqlfluff.with { extra_args = { "--dialect", "mysql" } },
-        formatting.sqlfluff.with { extra_args = { "--dialect", "mysql" } }
+        formatting.sqlfluff.with { extra_args = { "--dialect", "mysql" } },
+
+        -- Markdown
+        diagnostics.markdownlint,
     },
 }

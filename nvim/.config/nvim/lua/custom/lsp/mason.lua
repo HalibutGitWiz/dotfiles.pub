@@ -10,6 +10,7 @@ local servers = {
 	"jsonls", -- JSON
 	"yamlls", -- YAML
 	"lua_ls", -- Lua
+	"marksman", -- Markdown
 }
 
 local settings = {
