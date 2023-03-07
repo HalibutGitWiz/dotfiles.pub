@@ -23,6 +23,10 @@ function btail() {
     tail -n${2:-10} $1 | bat
 }
 
+# Have ls and ll show hidden files by default
+alias ls='ls -a'
+alias ll='ll -a'
+
 # Git short commands
 alias gad='git add'
 alias gcm='git commit'
