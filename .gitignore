@@ -20,3 +20,4 @@ darktable/.config/darktable/shortcutsrc.defaults
 darktable/.config/darktable/shortcutsrc.backup
 mullvad/.config/Mullvad VPN/DawnCache
 darktable/.config/darktable/darktablerc
+tmux/.config/tmux/plugins/
