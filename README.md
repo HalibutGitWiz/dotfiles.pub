@@ -22,11 +22,13 @@ Any PHP / Javascript developer who wants a free, open-source and mostly keyboard
 
 ## Neovim
 
+- Easy plugin management
 - File explorer
 - Symbols explorer
 - Syntax highlighting, completion, linting, formatting, code snippets and actions for PHP, Javascript, SQL, Json, Lua and Markdown
 - Fuzzy search for projects, files names or contents (among other things)
 - Easy navigation between open buffers (= tabs) with a buffer bar
+- Git integration
 - Xdebug integration
 - Quick action to comment a line or a block
 - Quick action to generate a docblock in PHP and Javascript

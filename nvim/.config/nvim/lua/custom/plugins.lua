@@ -115,6 +115,9 @@ return packer.startup(function(use)
         end
     }
 
+    -- Git integration
+    use 'tpope/vim-fugitive'
+
     -- Other plugins
     use "windwp/nvim-autopairs" -- Automatically closes brackets, quotes, braces...
     use "lewis6991/gitsigns.nvim" -- Highlight changes lines
