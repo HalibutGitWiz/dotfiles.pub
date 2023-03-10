@@ -29,15 +29,14 @@ keymap("n", "<C-Down>", ":resize -2<cr>", opts)
 keymap("n", "<C-Left>", ":vertical resize +2<cr>", opts)
 keymap("n", "<C-Right>", ":vertical :resize -2<cr>", opts)
 
+-- Unmap <S-j> (join lines) to avoid accidentally hitting it.
+keymap("n", "<S-j>", '', opts)
+
 -- Navigate buffers
 keymap("n", "<S-l>", "<CMD>BufferNext<CR>", opts)
 keymap("n", "<S-h>", "<CMD>BufferPrevious<CR>", opts)
 keymap("n", "<S-q>", "<CMD>BufferClose<CR>", opts) -- Close current buffer but not the window
 keymap("n", "<S-p>", "<CMD>BufferPick<CR>", opts) -- Close current buffer but not the window
-
--- Move text up and down
-keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
-keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Telescope
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
