@@ -40,3 +40,6 @@ setopt PUSHD_IGNORE_DUPS
 bindkey -r '^l'
 bindkey -r '^g'
 bindkey -s '^g' 'clear\n'
+
+# Bind "delete" key to actually delete next character instead of... whatever weird stuff it does by default
+bindkey "^[[3~" delete-char
