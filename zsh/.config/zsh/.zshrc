@@ -14,7 +14,6 @@ _comp_options+=(globdots)
 plug "hlissner/zsh-autopair"
 plug "zap-zsh/vim"
 plug "zap-zsh/fzf"
-plug "zap-zsh/exa"
 plug "Aloxaf/fzf-tab"
 plug "zsh-users/zsh-autosuggestions"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#999999"

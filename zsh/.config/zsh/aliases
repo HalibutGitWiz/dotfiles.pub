@@ -24,8 +24,7 @@ function btail() {
 }
 
 # Have ls and ll show hidden files by default
-alias ls='ls -a'
-alias ll='ll -a'
+alias ls='exa -lag --git --icons --group-directories-first'
 
 # Git short commands
 alias gad='git add'
