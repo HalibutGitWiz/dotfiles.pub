@@ -33,4 +33,4 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FPATH=~/.config/zsh/functions:$FPATH
 
 # Change display colors of exa
-export EXA_COLORS="da=37"
+export EXA_COLORS="sn=37:sb=37:da=37:uu=37:gu=37:un=33:gn=33:ur=37:gr=37:tr=37"
