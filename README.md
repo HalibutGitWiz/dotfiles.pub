@@ -16,7 +16,7 @@ Any PHP / Javascript developer who wants a free, open-source and mostly keyboard
 - Navigation with Vim keybindings
 - Smooth navigation between Tmux panes and Neovim windows
 - Monokai Pro color theme
-- A terminal that stays fast thanks to Alacritty being a Formula 1 car and a light ZSH plugins setup
+- A terminal that stays fast thanks to Alacritty and a light ZSH plugins setup
 
 ...in addition to everything Tmux itself brings to the table
 
