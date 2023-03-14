@@ -17,8 +17,7 @@ Any PHP / Javascript developer who wants a free, open-source and mostly keyboard
 - Smooth navigation between Tmux panes and Neovim windows
 - Monokai Pro color theme
 - A terminal that stays fast thanks to Alacritty and a light ZSH plugins setup
-
-...in addition to everything Tmux itself brings to the table
+- Tmux sessions, windows and panes persisting across reboots
 
 ## Neovim
 
