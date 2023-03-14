@@ -43,6 +43,9 @@ for _, server in pairs(servers) do
 	opts = {
 		on_attach = require("custom.lsp.handlers").on_attach,
 		capabilities = require("custom.lsp.handlers").capabilities,
+        root_dir = function()
+            return vim.loop.cwd()
+        end,
 	}
 
 	server = vim.split(server, "@")[1]
